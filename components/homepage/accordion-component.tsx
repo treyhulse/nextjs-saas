@@ -31,7 +31,7 @@ export function AccordionComponent() {
             <Accordion type="single" collapsible className="w-full mt-2">
                 <AccordionItem value="item-1">
                     <AccordionTrigger>
-                        <span className="font-medium">What's included in my print shop website?</span>
+                        <span className="font-medium">What is included in my print shop website?</span>
                     </AccordionTrigger>
                     <AccordionContent>
                         <p>Your website includes everything needed to run your print shop online: a customizable homepage, 
