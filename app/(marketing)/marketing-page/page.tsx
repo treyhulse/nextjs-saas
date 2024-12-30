@@ -49,7 +49,7 @@ export default async function MarketingPage() {
         </div>
         <div className='flex flex-col min-h-screen max-w-[900px] items-center mb-[2rem]'>
           <article className="w-full mx-auto pb-8">
-            <h1 className="text-3xl lg:text-4xl font-bold mb-6">Transform Your Print Shops Online Experience</h1>
+            <h1 className="text-3xl lg:text-4xl font-bold mb-6">Transform Your Print Shop&apos;s Online Experience</h1>
 
             <section className="mb-8">
               <p className="text-md leading-relaxed">
@@ -69,7 +69,7 @@ export default async function MarketingPage() {
                 Custom quote forms capture all the details you need, from quantity breaks to ink colors, making it easier to provide accurate estimates.
               </p>
               <p className="text-md mb-5 leading-relaxed">
-                Showcase your best work with a professional gallery that helps convince potential customers of your print shops capabilities.
+                Showcase your best work with a professional gallery that helps convince potential customers of your print shop&apos;s capabilities.
               </p>
             </section>
 
