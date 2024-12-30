@@ -5,19 +5,19 @@ import { TITLE_TAILWIND_CLASS } from '@/utils/constants'
 
 const features = [
   {
-    name: 'Build faster.',
+    name: 'Launch Fast',
     description:
-      'Get up and running in no time with pre-configured settings and best practices. Say goodbye to setup and focus on what truly matters - building your application.',
+      'Get your print shop online in minutes with our pre-built website templates and product designer. No coding required.',
     icon: Computer,
   },
   {
-    name: 'Focus on business logic.',
-    description: 'Concentrate on solving business problems instead of dealing with the repetitive setup.',
+    name: 'Grow Your Business',
+    description: 'Focus on running your print shop while we handle the technical details. Easily manage orders, quotes, and designs.',
     icon: FaBusinessTime,
   },
   {
-    name: 'Ready for scale.',
-    description: 'Prepare for growth from day one. With built-in optimizations and scalable architecture, your application will be ready to handle increased traffic and complexity.',
+    name: 'Scale With Confidence',
+    description: 'Built to handle high-volume shops with multiple product lines, custom quotes, and large design files.',
     icon: Network,
   },
 ]
@@ -30,10 +30,10 @@ export default function SideBySide() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <p className={`${TITLE_TAILWIND_CLASS} mt-2 font-semibold tracking-tight dark:text-white text-gray-900`}>
-                Nextjs Starter Kit: A faster way to production
+                The Complete Platform for Screen Printers
               </p>
               <p className="mt-6 leading-8 text-gray-600 dark:text-gray-400">
-                Accelerate your development with this powerful Nextjs Starter Kit
+                Everything you need to run your print shop online
               </p>
               <dl className="mt-10 max-w-xl space-y-8 leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (

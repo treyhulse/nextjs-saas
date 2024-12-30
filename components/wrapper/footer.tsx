@@ -27,9 +27,10 @@ export default function Footer() {
                         <div className="mt-8 space-y-4 lg:mt-0">
 
                             <div>
-                                <h3 className="text-2xl font-medium">This is a fake newsletter title</h3>
-                                <p className="mt-4 max-w-lg  ">
-                                    This is not a real newsletter email input. This is for you to build upon
+                                <h3 className="text-2xl font-medium">Stay Updated with Print Industry Tips</h3>
+                                <p className="mt-4 max-w-lg">
+                                    Join our newsletter for exclusive screen printing business insights, product updates, 
+                                    and early access to new features. Perfect for print shop owners who want to stay ahead.
                                 </p>
                             </div>
                             <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col border rounded-xl p-4 gap-3 mt-6 w-full">
@@ -55,10 +56,10 @@ export default function Footer() {
 
                                 <ul className="mt-6 space-y-4 text-sm">
                                     <li>
-                                        <Link href="https://twitter.com/rasmickyy" target="_blank" className="transition hover:opacity-75"> Twitter </Link>
+                                        <Link href="https://twitter.com/takeoutthreads" target="_blank" className="transition hover:opacity-75"> Twitter </Link>
                                     </li>
                                     <li>
-                                        <Link href="https://www.youtube.com/@rasmic" target="_blank" className="  transition hover:opacity-75"> YouTube </Link>
+                                        <Link href="https://www.youtube.com/@takeoutthreads" target="_blank" className="  transition hover:opacity-75"> YouTube </Link>
                                     </li>
                                 </ul>
                             </div>

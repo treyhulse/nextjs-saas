@@ -166,34 +166,58 @@ export default function Pricing() {
 
   const plans = [
     {
-      title: "Basic",
-      monthlyPrice: 10,
-      yearlyPrice: 100,
-      description: "Essential features you need to get started",
-      features: ["Example Feature Number 1", "Example Feature Number 2", "Example Feature Number 3"],
+      title: "Starter",
+      description: "Perfect for new screen printing businesses",
+      features: [
+        "Custom subdomain website",
+        "Product customization interface",
+        "Basic quote request form",
+        "Image gallery (up to 50 images)",
+        "1 admin user",
+        "Basic analytics"
+      ],
+      monthlyPrice: 89,
+      yearlyPrice: 890,  // ~$74/month when billed annually
       priceIdMonthly: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID,
       priceIdYearly: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID,
       actionLabel: "Get Started",
     },
     {
-      title: "Pro",
-      monthlyPrice: 25,
-      yearlyPrice: 250,
-      description: "Perfect for owners of small & medium businessess",
-      features: ["Example Feature Number 1", "Example Feature Number 2", "Example Feature Number 3"],
-      actionLabel: "Get Started",
+      title: "Professional",
+      description: "For growing screen printing businesses",
+      features: [
+        "Everything in Starter, plus:",
+        "Custom domain support",
+        "Advanced product designer",
+        "Custom quote form fields",
+        "Unlimited gallery storage",
+        "5 team members",
+        "Order management system"
+      ],
+      monthlyPrice: 249,
+      yearlyPrice: 2490,  // ~$207/month when billed annually
       priceIdMonthly: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID,
       priceIdYearly: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID,
+      actionLabel: "Get Started",
       popular: true,
     },
     {
       title: "Enterprise",
-      price: "Custom",
-      description: "Dedicated support and infrastructure to fit your needs",
-      features: ["Example Feature Number 1", "Example Feature Number 2", "Example Feature Number 3", "Super Exclusive Feature"],
-      actionLabel: "Contact Sales",
+      description: "Custom solutions for large print shops",
+      features: [
+        "Everything in Professional, plus:",
+        "White-label solution",
+        "Priority support",
+        "Custom integrations",
+        "API access",
+        "Unlimited team members",
+        "Advanced analytics & reporting"
+      ],
+      monthlyPrice: 429,
+      yearlyPrice: 4290,  // ~$357/month when billed annually
       priceIdMonthly: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID,
       priceIdYearly: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID,
+      actionLabel: "Contact Sales",
       exclusive: true,
     },
   ]

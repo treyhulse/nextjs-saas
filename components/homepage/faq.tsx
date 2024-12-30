@@ -9,22 +9,21 @@ export function FAQ() {
     return (
         <Accordion type="single" collapsible className="w-full p-8">
             <AccordionItem value="item-1">
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger>How long does it take to set up my print shop website?</AccordionTrigger>
                 <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
+                    Most print shops are up and running within a day. Our setup wizard helps you configure your products, pricing, and design options quickly.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-                <AccordionTrigger>Is it styled?</AccordionTrigger>
+                <AccordionTrigger>Can customers design their own products?</AccordionTrigger>
                 <AccordionContent>
-                    Yes. It comes with default styles that matches the other
-                    components&apos; aesthetic.
+                    Yes! Our product designer allows customers to upload artwork, add text, and preview their designs on your products. You control which design options are available.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-                <AccordionTrigger>Is it animated?</AccordionTrigger>
+                <AccordionTrigger>Do you support custom domains?</AccordionTrigger>
                 <AccordionContent>
-                    Yes. It&apos;s animated by default, but you can disable it if you prefer.
+                    Yes! While all plans include a free subdomain (yourshop.takeoutthreads.com), Professional and Enterprise plans support custom domain names.
                 </AccordionContent>
             </AccordionItem>
         </Accordion>

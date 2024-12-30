@@ -127,4 +127,23 @@ const SpringAnimatedFeatures = () => {
   )
 }
 
+const features = [
+  {
+    title: "Product Designer",
+    description: "Let customers design their apparel with our intuitive product customization interface"
+  },
+  {
+    title: "Quote Forms",
+    description: "Capture leads with customizable quote request forms designed for print shops"
+  },
+  {
+    title: "Gallery & Portfolio",
+    description: "Showcase your best work with a beautiful gallery to attract more customers"
+  },
+  {
+    title: "Order Management",
+    description: "Track orders, manage customers, and handle your business all in one place"
+  }
+]
+
 export default SpringAnimatedFeatures
