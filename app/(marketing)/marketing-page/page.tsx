@@ -30,7 +30,7 @@ export default async function MarketingPage() {
     <PageWrapper>
       <div className='flex flex-col min-h-screen items-center mt-[2.5rem] p-3 w-full'>
         <h1 className="scroll-m-20 max-w-[600px] text-5xl font-bold tracking-tight text-center">
-          Launch Your Print Shop's Online Presence
+          Launch Your Print Shop&apos;s Online Presence
         </h1>
         <p className="mx-auto max-w-[600px] text-gray-500 md:text-lg text-center mt-2 dark:text-gray-400">
           Create a professional website with built-in product designer, quote forms, and gallery. 
@@ -78,7 +78,7 @@ export default async function MarketingPage() {
                 Built for Growth
               </h2>
               <p className="text-md mb-5 leading-relaxed">
-                Whether you're just starting out or running a high-volume shop, our platform scales with your business:
+                Our platform scales with your business:
               </p>
               <ol className="flex flex-col gap-1 list-decimal ml-8 mb-4">
                 <li className="mb-2"><strong>Easy Setup:</strong> Launch your website in minutes with our pre-built templates and setup wizard.</li>

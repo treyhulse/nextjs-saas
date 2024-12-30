@@ -15,9 +15,19 @@ import { Dialog, DialogClose } from "@radix-ui/react-dialog";
 
 const components: { title: string; href: string; description: string }[] = [
     {
-        title: "Marketing Page",
-        href: "/marketing-page",
-        description: "Write some wavy here to get them to click.",
+        title: "Product Designer",
+        href: "/features/designer",
+        description: "Let your customers design custom apparel with our intuitive product customization interface.",
+    },
+    {
+        title: "Quote Builder",
+        href: "/features/quotes",
+        description: "Streamline your quote process with customizable forms built for print shops.",
+    },
+    {
+        title: "Gallery Manager",
+        href: "/features/gallery",
+        description: "Showcase your best print work and attract more customers with a professional portfolio.",
     },
 ];
 
@@ -40,7 +50,7 @@ export default function NavBar() {
                     </SheetTrigger>
                     <SheetContent side="left">
                         <SheetHeader>
-                            <SheetTitle>Next Starter</SheetTitle>
+                            <SheetTitle>Takeout Threads</SheetTitle>
                         </SheetHeader>
                         <div className="flex flex-col space-y-3 mt-[1rem]">
                             <DialogClose asChild>

@@ -27,10 +27,10 @@ export default function Footer() {
                         <div className="mt-8 space-y-4 lg:mt-0">
 
                             <div>
-                                <h3 className="text-2xl font-medium">Stay Updated with Print Industry Tips</h3>
+                                <h3 className="text-2xl font-medium">Print Shop Success Newsletter</h3>
                                 <p className="mt-4 max-w-lg">
-                                    Join our newsletter for exclusive screen printing business insights, product updates, 
-                                    and early access to new features. Perfect for print shop owners who want to stay ahead.
+                                    Get weekly tips on growing your print shop, industry trends, and early access 
+                                    to new features. Join hundreds of successful print shops already subscribed.
                                 </p>
                             </div>
                             <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col border rounded-xl p-4 gap-3 mt-6 w-full">
@@ -52,27 +52,34 @@ export default function Footer() {
                         <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2">
 
                             <div>
-                                <p className="font-medium ">Socials</p>
-
+                                <p className="font-medium">Resources</p>
                                 <ul className="mt-6 space-y-4 text-sm">
                                     <li>
-                                        <Link href="https://twitter.com/takeoutthreads" target="_blank" className="transition hover:opacity-75"> Twitter </Link>
+                                        <Link href="/blog" className="transition hover:opacity-75">Print Shop Blog</Link>
                                     </li>
                                     <li>
-                                        <Link href="https://www.youtube.com/@takeoutthreads" target="_blank" className="  transition hover:opacity-75"> YouTube </Link>
+                                        <Link href="/tutorials" className="transition hover:opacity-75">Video Tutorials</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="https://twitter.com/takeoutthreads" target="_blank" className="transition hover:opacity-75">Twitter</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="https://www.youtube.com/@takeoutthreads" target="_blank" className="transition hover:opacity-75">YouTube</Link>
                                     </li>
                                 </ul>
                             </div>
 
                             <div>
-                                <p className="font-medium ">Helpful Links</p>
-
+                                <p className="font-medium">Support</p>
                                 <ul className="mt-6 space-y-4 text-sm">
                                     <li>
-                                        <Link target="_blank" href="/" rel="noopener noreferrer" className="  transition hover:opacity-75"> Docs </Link>
+                                        <Link href="/docs" target="_blank" className="transition hover:opacity-75">Documentation</Link>
                                     </li>
                                     <li>
-                                        <Link href="/" className="  transition hover:opacity-75"> Methodology </Link>
+                                        <Link href="/help" className="transition hover:opacity-75">Help Center</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/pricing" className="transition hover:opacity-75">Pricing</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -81,15 +88,15 @@ export default function Footer() {
                         <div className="mt-8 border-t   pt-8">
                             <ul className="flex flex-wrap gap-4 text-xs">
                                 <li>
-                                    <a href="/" target="_blank" className="transition hover:opacity-75">Terms & Conditions </a>
+                                    <Link href="/terms" className="transition hover:opacity-75">Terms & Conditions</Link>
                                 </li>
 
                                 <li>
-                                    <a href="/" target="_blank" className="transition hover:opacity-75">Privacy Policy </a>
+                                    <Link href="/privacy" className="transition hover:opacity-75">Privacy Policy</Link>
                                 </li>
                             </ul>
 
-                            <p className="mt-8 text-xs  ">&copy; 2024. SomeCompany LLC. All rights reserved.</p>
+                            <p className="mt-8 text-xs  ">&copy; 2024 Takeout Threads. All rights reserved.</p>
                         </div>
                     </div>
                 </div>
