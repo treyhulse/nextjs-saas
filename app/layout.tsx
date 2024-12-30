@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     default: 'Nextjs Starter Kit',
     template: `%s | Nextjs Starter Kit`
   },
-  description: 'The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters',
+  description: 'The Ultimate Nextjs Starter Kit for quickly building your SaaS, giving you time to focus on what really matters',
   openGraph: {
     description: 'The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters',
     images: ['https://utfs.io/f/8a428f85-ae83-4ca7-9237-6f8b65411293-eun6ii.png'],
